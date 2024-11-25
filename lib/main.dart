@@ -5,10 +5,9 @@ import 'package:world_time_app/pages/home.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Home(),
     routes: {
-      '/': (context) => Loading(),
-      '/home': (context) => Home(),
+      '/': (context) => Home(),
+      '/loading': (context) => Loading(),
       '/location': (context) => ChooseLocation(),
     },
   ));
